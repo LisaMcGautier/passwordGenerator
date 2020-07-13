@@ -24,4 +24,14 @@ Created steps to generate a random character from each of numeric, lowercase, an
 
 Concatenated the first four characters, one from each array, and logged to console.
 
+7/13
 
+Using the same structrue as the first four characters, created steps to generate the next four characters.
+
+Created conditional variables, based on user input from confirm pop-ups.
+
+However, if the user does not select all four types of characters, the code does not work.
+
+Created an "alphabet" array to include each of the four types of characters.
+
+Will need to adjust the "alphabet" based on user input, and make the process for selecting the characters more efficient.
