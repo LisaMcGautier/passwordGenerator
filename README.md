@@ -37,3 +37,11 @@ Created an "alphabet" array to include each of the four types of characters.
 Will need to adjust the "alphabet" based on user input, and make the process for selecting the characters more efficient.
 
 Created an array "alphabet" to contain the types of characters selected by the user.
+
+Tried creating a for loop to generate random characters from the alpahbet... and broke my code.
+
+Including the changes in the JS file, but commented out.
+
+Also discovered that the variable created by the prompt "passwordLength" is viewed by JS as a string... trying to understand how to convert the variable to a number.
+
+Not comprehending the Internet search results yet... not giving up!
