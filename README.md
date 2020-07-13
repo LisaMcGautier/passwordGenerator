@@ -35,3 +35,5 @@ However, if the user does not select all four types of characters, the code does
 Created an "alphabet" array to include each of the four types of characters.
 
 Will need to adjust the "alphabet" based on user input, and make the process for selecting the characters more efficient.
+
+Created an array "alphabet" to contain the types of characters selected by the user.
