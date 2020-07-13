@@ -134,6 +134,37 @@ if (specialChar == true && numbersChar == true && lowercaseChar == true && upper
 
 // }
 
+randomNumber = Math.random();
+randomValue = randomNumber * special.length;
+randomIndex = Math.floor(randomValue);
+console.log("Random special: " + special[randomIndex]);
+
+var fifthCharacter = special[randomIndex];
+
+randomNumber = Math.random();
+randomValue = randomNumber * numbers.length;
+randomIndex = Math.floor(randomValue);
+console.log("Random number: " + numbers[randomIndex]);
+
+var sixthCharacter = numbers[randomIndex];
+
+randomNumber = Math.random();
+randomValue = randomNumber * lowercase.length;
+randomIndex = Math.floor(randomValue);
+console.log("Random lowercase: " + lowercase[randomIndex]);
+
+var seventhCharacter = lowercase[randomIndex];
+
+randomNumber = Math.random();
+randomValue = randomNumber*uppercase.length;
+randomIndex = Math.floor(randomValue);
+console.log("Random uppercase: " + uppercase[randomIndex]);
+
+var eighthCharacter = uppercase[randomIndex];
+
+console.log(firstCharacter + secondCharacter + thirdCharacter + fourthCharacter + fifthCharacter + sixthCharacter + seventhCharacter + eighthCharacter);
+
+
 
 
 // Write password to the #password input
