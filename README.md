@@ -49,3 +49,11 @@ Not comprehending the Internet search results yet... not giving up!
 Used previously created lines to create a total of 8 random characters which log to console.  However, this only works of all character types are selected AND the user chooses and 8 character password.
 
 Going to experiment with streamlining this by combining firstCharacter and fifthCharacter; secondCharacter and sixthCharacter; thirdCharacter and seventhCharacter; and fourthCharacter to achieve the same result.
+
+First, tried creating first and fifth characters (etc.) at the same time, but ended up doubling the same random character.
+
+Rearranged the code to create firstCharacter and fifthCharacter; secondCharacter and sixthCharacter; thirdCharacter and seventhCharacter; and fourthCharacter in the same steps.
+
+Also attempted to log a single random character from the alphabet, but ended up logging the entire alphabet to the console.
+
+Progress, but not yet meeting the criteria of the project.
