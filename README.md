@@ -14,4 +14,14 @@ Created a confirm to ask if user wants to "include special characters?"
 
 Created an array "special" to include 10 special characters and log them to console.
 
-Created steps to select a random element from the array "special" and log to console.
+Created steps to select a random character from the array "special" and log to console.
+
+Created 3 seperate confirms to ask if user wants to "include numeric characters?" "include lowercase characters?" and "include uppercase characters?"
+
+Created 3 arrays, "number", "lowercase", and "uppercase" and logged to console.
+
+Created steps to generate a random character from each of numeric, lowercase, and uppercase arrays.
+
+Concatenated the first four characters, one from each array, and logged to console.
+
+
