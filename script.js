@@ -158,9 +158,11 @@ for (var i = 0; i < passwordLength - 4; i++) {
   randomNumber = Math.random();
   randomValue = randomNumber * alphabet.length;
   randomIndex = Math.floor(randomValue);
-  console.log(alphabet[randomIndex]);
+  password = password + alphabet[randomIndex];
 
 }
+
+console.log(password);
 
 // console.log(firstCharacter + secondCharacter + thirdCharacter + fourthCharacter + fifthCharacter + sixthCharacter + seventhCharacter + eighthCharacter);
 
