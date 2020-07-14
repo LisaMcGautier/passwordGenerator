@@ -61,3 +61,15 @@ Progress, but not yet meeting the criteria of the project.
 Deactivated fifth through eighth characters.
 
 Corrected the for loop to generate remaining random characters.
+
+7/14
+
+Generated the password as a string, as opposed to 4 characters and a list of random characters.
+
+Changed the first "password" variable to "passwordStart" to allow for user input (number and types of characters).
+
+Original code build on the assumption that the user would select all 4 types, but the resulting password did not meet criteria.
+
+Also, cleaned up some of the code, removing commented out portions to another JS file.
+
+Next steps will include removing numerous console.logs to clarify the code bank.
