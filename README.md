@@ -77,3 +77,5 @@ Next steps will include removing numerous console.logs to clarify the code bank.
 Commented out console.logs of alphabet arrays and random characters generated.
 
 Corrected text of uppercaseCharacters confirm from "lowercase" to "UPPERCASE" (A product of copy & paste!)
+
+Further reduced the number of console.logs by commenting them out.
