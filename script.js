@@ -35,13 +35,13 @@ if (passwordLength >= 8 || passwordLength <= 128) {
 // }
 
 
-var password = "";
+var passwordStart = "";
 
 var alphabet = [];
 
-var specialChar = confirm("Click OK to include $peci@l characters.");
+var specialCharacters = confirm("Click OK to include $peci@l characters.");
 
-if (specialChar == true) {
+if (specialCharacters == true) {
   var special = ["!", "@", "#", "$", "%", "&", "*", "?", "+", "="];
   console.log(special);
 
@@ -54,19 +54,12 @@ if (specialChar == true) {
   console.log("Random special: " + special[randomIndex]);
 
   var firstCharacter = special[randomIndex];
-  password = password + firstCharacter;
-
-  // randomNumber = Math.random();
-  // randomValue = randomNumber * special.length;
-  // randomIndex = Math.floor(randomValue);
-  // console.log("Random special: " + special[randomIndex]);
-
-  // var fifthCharacter = special[randomIndex];
+  passwordStart = passwordStart + firstCharacter;
 }
 
-var numbersChar = confirm("Click OK to include numeric characters.")
+var numericChararacters = confirm("Click OK to include numeric characters.")
 
-if (numbersChar == true) {
+if (numericChararacters == true) {
   var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
   console.log(numbers);
 
@@ -79,19 +72,12 @@ if (numbersChar == true) {
   console.log("Random number: " + numbers[randomIndex]);
 
   var secondCharacter = numbers[randomIndex];
-  password = password + secondCharacter;
-
-  // randomNumber = Math.random();
-  // randomValue = randomNumber * numbers.length;
-  // randomIndex = Math.floor(randomValue);
-  // console.log("Random number: " + numbers[randomIndex]);
-
-  // var sixthCharacter = numbers[randomIndex];
+  passwordStart = passwordStart + secondCharacter;
 }
 
-var lowercaseChar = confirm("Click OK to include lowercase characters.");
+var lowercaseCharacters = confirm("Click OK to include lowercase characters.");
 
-if (lowercaseChar == true) {
+if (lowercaseCharacters == true) {
   var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   console.log(lowercase);
 
@@ -104,19 +90,12 @@ if (lowercaseChar == true) {
   console.log("Random lowercase: " + lowercase[randomIndex]);
 
   var thirdCharacter = lowercase[randomIndex];
-  password = password + thirdCharacter;
-
-  // randomNumber = Math.random();
-  // randomValue = randomNumber * lowercase.length;
-  // randomIndex = Math.floor(randomValue);
-  // console.log("Random lowercase: " + lowercase[randomIndex]);
-
-  // var seventhCharacter = lowercase[randomIndex];
+  passwordStart = passwordStart + thirdCharacter;
 }
 
-var uppercaseChar = confirm("Click OK to include lowercase characters.");
+var uppercaseCharacters = confirm("Click OK to include lowercase characters.");
 
-if (uppercaseChar == true) {
+if (uppercaseCharacters == true) {
   var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
   console.log(uppercase);
 
@@ -129,31 +108,18 @@ if (uppercaseChar == true) {
   console.log("Random uppercase: " + uppercase[randomIndex]);
 
   var fourthCharacter = uppercase[randomIndex];
-  password = password + fourthCharacter;
-
-  // randomNumber = Math.random();
-  // randomValue = randomNumber*uppercase.length;
-  // randomIndex = Math.floor(randomValue);
-  // console.log("Random uppercase: " + uppercase[randomIndex]);
-
-  // var eighthCharacter = uppercase[randomIndex];
+  passwordStart = passwordStart + fourthCharacter;
 }
 
 console.log(alphabet);
 
-// if (specialChar == true && numbersChar == true && lowercaseChar == true && uppercaseChar == true) {
-//   alphabet = [special + numbers + lowercase + uppercase]
-// }
+console.log(passwordStart);
 
-console.log(password);
+console.log(passwordStart.length);
 
-// randomNumber = Math.random();
-// randomValue = randomNumber * alphabet.length;
-// randomIndex = Math.floor(randomValue);
-// console.log(alphabet[randomIndex]);
+var password = passwordStart;
 
-
-for (var i = 0; i < passwordLength - 4; i++) {
+for (var i = 0; i < passwordLength - passwordStart.length; i++) {
 
   randomNumber = Math.random();
   randomValue = randomNumber * alphabet.length;
@@ -163,27 +129,7 @@ for (var i = 0; i < passwordLength - 4; i++) {
 }
 
 console.log(password);
-
-// console.log(firstCharacter + secondCharacter + thirdCharacter + fourthCharacter + fifthCharacter + sixthCharacter + seventhCharacter + eighthCharacter);
-
-// TRIED TO GENERATE A SINGLE RANDOM CHARACTER FROM THE ENTIRE ALPHABET;
-// INSTEAD, CONSOLE LOGGED THE ENTIRE ALPHABET!
-
-// randomNumber = Math.random();
-// randomValue = randomNumber * alphabet.length;
-// randomIndex = Math.floor(randomValue);
-// console.log("Random character: " + alphabet[randomIndex]);
-
-
-
-// for(var i = 0; i < 8; i++) {
-//   randomNumber = Math.random();
-//   randomValue = randomNumber * alphabet.length;
-//   randomIndex = Math.floor(randomValue);
-//   console.log(alphabet[randomIndex]);
-
-// }
-
+console.log(password.length);
 
 
 
