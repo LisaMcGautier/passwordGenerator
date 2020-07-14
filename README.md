@@ -73,3 +73,7 @@ Original code build on the assumption that the user would select all 4 types, bu
 Also, cleaned up some of the code, removing commented out portions to another JS file.
 
 Next steps will include removing numerous console.logs to clarify the code bank.
+
+Commented out console.logs of alphabet arrays and random characters generated.
+
+Corrected text of uppercaseCharacters confirm from "lowercase" to "UPPERCASE" (A product of copy & paste!)
