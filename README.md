@@ -81,3 +81,10 @@ Corrected text of uppercaseCharacters confirm from "lowercase" to "UPPERCASE" (A
 Further reduced the number of console.logs by commenting them out.
 
 Replaced repetetive code blocks with function "randomCharacter."
+
+
+Successfully generated a password to the dialog box on the webpage.
+
+Realizing, in retrospect, that much of my code could have been written within the "generatePassword" function that was in the original script.js assignment.
+
+Because the code runs at this point, I am hesitant to refactor the page before the due date tomorrow.
