@@ -57,3 +57,7 @@ Rearranged the code to create firstCharacter and fifthCharacter; secondCharacter
 Also attempted to log a single random character from the alphabet, but ended up logging the entire alphabet to the console.
 
 Progress, but not yet meeting the criteria of the project.
+
+Deactivated fifth through eighth characters.
+
+Corrected the for loop to generate remaining random characters.
