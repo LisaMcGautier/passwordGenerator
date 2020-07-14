@@ -105,6 +105,10 @@ console.log(password);
 
 console.log(password.length);
 
+function generatePassword(){
+  return password;
+}
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
@@ -122,5 +126,3 @@ writePassword(password);
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
-
-document.getElementById("generateBtn").addEventListener("click", writePassword);
