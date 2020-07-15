@@ -96,3 +96,10 @@ Spent several hours today rearranging the code blocks inside the "generatePasswo
 I think I now have a webpage that is working as expected.
 
 In a subsequent commit, I will also include additional JS files that I have created as backups to my working file.
+
+![Screenshot (273)](https://user-images.githubusercontent.com/62854999/87585081-7f431a00-c6ac-11ea-966d-167c809d44f0.png)
+![Screenshot (272)](https://user-images.githubusercontent.com/62854999/87585114-8c600900-c6ac-11ea-87c5-a41bba2e95a6.png)
+
+Cleaned up the code in the "script.js" file.
+
+Attached function.js, backup.js, beforeClass.js, and other.js; all documents which were created in the pursuit of this project.
