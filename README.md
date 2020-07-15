@@ -88,3 +88,11 @@ Successfully generated a password to the dialog box on the webpage.
 Realizing, in retrospect, that much of my code could have been written within the "generatePassword" function that was in the original script.js assignment.
 
 Because the code runs at this point, I am hesitant to refactor the page before the due date tomorrow.
+
+7/15
+
+Spent several hours today rearranging the code blocks inside the "generatePassword" function.
+
+I think I now have a webpage that is working as expected.
+
+In a subsequent commit, I will also include additional JS files that I have created as backups to my working file.
