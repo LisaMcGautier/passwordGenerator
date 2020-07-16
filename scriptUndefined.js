@@ -16,7 +16,7 @@ function generatePassword() {
   var passwordLength;
 
   var alphabet = [];
-
+  
   var passwordStart = "";
 
   passwordLength = prompt("How many characters would you like your password to contain?");
@@ -42,16 +42,6 @@ function generatePassword() {
   }
 
   var specialCharacters = confirm("Click OK to include $peci@l characters.");
-  var numericChararacters = confirm("Click OK to include numeric characters.");
-  var lowercaseCharacters = confirm("Click OK to include lowercase characters.");
-  var uppercaseCharacters = confirm("Click OK to include UPPERCASE characters.");
-
-  if (specialCharacters == false && numericChararacters == false && lowercaseCharacters == false && uppercaseCharacters == false) {
-    alert("You must select at least one type of character.")
-    return;
-  }
-
-  // var specialCharacters = confirm("Click OK to include $peci@l characters.");
 
   if (specialCharacters == true) {
     var special = ["!", "@", "#", "$", "%", "&", "*", "?", "+", "="];
@@ -64,7 +54,7 @@ function generatePassword() {
     passwordStart = passwordStart + firstCharacter;
   }
 
-  // var numericChararacters = confirm("Click OK to include numeric characters.");
+  var numericChararacters = confirm("Click OK to include numeric characters.");
 
   if (numericChararacters == true) {
     var numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,];
@@ -77,7 +67,7 @@ function generatePassword() {
     passwordStart = passwordStart + secondCharacter;
   }
 
-  // var lowercaseCharacters = confirm("Click OK to include lowercase characters.");
+  var lowercaseCharacters = confirm("Click OK to include lowercase characters.");
 
   if (lowercaseCharacters == true) {
     var lowercase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
@@ -90,7 +80,7 @@ function generatePassword() {
     passwordStart = passwordStart + thirdCharacter;
   }
 
-  // var uppercaseCharacters = confirm("Click OK to include UPPERCASE characters.");
+  var uppercaseCharacters = confirm("Click OK to include UPPERCASE characters.");
 
   if (uppercaseCharacters == true) {
     var uppercase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -102,8 +92,6 @@ function generatePassword() {
     var fourthCharacter = uppercase[randomIndex];
     passwordStart = passwordStart + fourthCharacter;
   }
-
-  // else alert("You nust select at least one type of character.")
 
   var password = passwordStart;
 
@@ -133,10 +121,8 @@ generateBtn.addEventListener("click", writePassword);
 // Write password to the #password input
 function writePassword() {
   var generate = generatePassword();
-  if (generate != undefined) {
-    var passwordText = document.querySelector("#password");
+  var passwordText = document.querySelector("#password");
 
-    passwordText.value = generate;
-  }
+  passwordText.value = generate;
 
 }
