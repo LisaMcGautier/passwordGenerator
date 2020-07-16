@@ -107,3 +107,7 @@ Attached function.js, backup.js, beforeClass.js, and other.js; all documents whi
 Watching other students debug their code helped me realize that if the user does not choose any of the character types, the password will generate "undefined."
 
 Created if statements to avoid this issue.
+
+Realized that I saved the updated JS file as scriptFix, which broke the link with index.html.
+
+Renamed files for clarity.
