@@ -103,3 +103,7 @@ In a subsequent commit, I will also include additional JS files that I have crea
 Cleaned up the code in the "script.js" file.
 
 Attached function.js, backup.js, beforeClass.js, and other.js; all documents which were created in the pursuit of this project.
+
+Watching other students debug their code helped me realize that if the user does not choose any of the character types, the password will generate "undefined."
+
+Created if statements to avoid this issue.
