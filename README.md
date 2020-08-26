@@ -111,3 +111,6 @@ Created if statements to avoid this issue.
 Realized that I saved the updated JS file as scriptFix, which broke the link with index.html.
 
 Renamed files for clarity.
+
+ https://github.com/LisaMcGautier/passwordGenerator
+ https://lisamcgautier.github.io/passwordGenerator/
